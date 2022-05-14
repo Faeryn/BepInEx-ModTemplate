@@ -1,0 +1,20 @@
+﻿using System;
+using System.IO;
+using BepInEx;
+using BepInEx.Configuration;
+using BepInEx.Logging;
+
+namespace {{name}} {
+	[BepInPlugin(GUID, NAME, VERSION)]
+	public class {{name}} : BaseUnityPlugin {
+		public const string GUID = "{{guid}}";
+		public const string NAME = "{{name}}";
+		public const string VERSION = "{{version_number}}";
+		internal static ManualLogSource Log;
+
+		internal void Awake() {
+			Log = this.Logger;
+			Log.LogMessage($"Starting {NAME} {VERSION}");
+		}
+	}
+}
