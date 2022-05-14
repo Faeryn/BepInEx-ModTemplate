@@ -9,6 +9,7 @@ WARNING: This script is in a very early/PoC stage and may break in unexpected wa
 * The main Outward assembly reference points to `..\lib\Assembly-CSharp.dll`. The reason for this is that this way it's easier for Rider IDE's built-in decompiler. 
 This also means you will either have to copy the `Assembly-CSharp.dll` from the game's folder, or remove this reference and use the one in the NuGet package. I will make this an option in a later release.
 * The license defaults to MIT license. If you want something else, just replace it with your desired license file.
+* The template files are based on [Mefino's OutwardModTemplate](https://github.com/Mefino/OutwardModTemplate) 
 
 ## Usage
 1. Run the script with one argument, the folder where you keep your mod projects (for example `modgen.py C:\Workspace\ `).
