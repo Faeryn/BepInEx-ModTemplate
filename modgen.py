@@ -15,7 +15,7 @@ values = {
     "version_number": "1.0.0",
     "website_url": "",
     "description": "This is a mod",
-    "bepinex_version": "5.4.16",
+    "bepinex_version": "5.4.18",
     "project_prefix": "",
 }
 
