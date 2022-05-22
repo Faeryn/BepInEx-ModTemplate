@@ -4,7 +4,7 @@ import uuid
 import json
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-script_version = "1.0.0"
+script_version = "1.1.0"
 
 games = {"Outward": "Outward"}
 

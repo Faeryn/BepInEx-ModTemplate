@@ -18,3 +18,12 @@ This also means you will either have to copy the `Assembly-CSharp.dll` from the 
    * If you don't know what it is, you do not want to create a patcher project.
    * It's a good idea to accept generated mod GUID.
 3. You may have to force refresh NuGet packages and/or manually reimport BepInEx.
+
+
+## Changelog
+
+### 1.1.0
+- Template file update
+
+### 1.0.0
+- Initial release
