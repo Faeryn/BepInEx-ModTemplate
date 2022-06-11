@@ -1,8 +1,6 @@
-﻿using System;
-using System.IO;
-using BepInEx;
-using BepInEx.Configuration;
+﻿using BepInEx;
 using BepInEx.Logging;
+using HarmonyLib;
 
 namespace {{name}} {
 	[BepInPlugin(GUID, NAME, VERSION)]
@@ -15,6 +13,7 @@ namespace {{name}} {
 		internal void Awake() {
 			Log = this.Logger;
 			Log.LogMessage($"Starting {NAME} {VERSION}");
+			new Harmony(GUID).PatchAll();
 		}
 	}
 }
